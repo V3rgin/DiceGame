@@ -9,31 +9,92 @@
 
 >
     <TextView
-        android:id="@+id/graWKosci"
+        android:id="@+id/authorTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Gra w kości. Autor: Imie i Nazwisko"
         android:textSize="24sp"
         />
+    <Button
+        android:id="@+id/throwDraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RZUĆ KOŚCIAMI"
+        android:textSize="24sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/cube1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/cube2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/cube3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/cube4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/cube5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
     <TextView
-        android:id="@+id/textViewCount"
+        android:id="@+id/thisDrawResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Licznik: 0"
+        android:text="Wynik tego losowania: 0"
         android:textSize="24sp"
         />
     <TextView
-        android:id="@+id/textViewCount"
+        android:id="@+id/gameResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Licznik: 0"
+        android:text="Wynik gry: 0"
         android:textSize="24sp"
         />
     <TextView
-        android:id="@+id/textViewCount"
+        android:id="@+id/throwAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Licznik: 0"
+        android:text="Liczba rzutów: 0"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
         android:textSize="24sp"
         />
 </LinearLayout>
