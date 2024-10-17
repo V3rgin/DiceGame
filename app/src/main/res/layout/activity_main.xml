@@ -6,65 +6,84 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:color="@color/white"
-
+    android:background="@color/Beige"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
 >
     <TextView
         android:id="@+id/authorTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gra w kości. Autor: Imie i Nazwisko"
-        android:textSize="24sp"
+        android:text="Gra w kości. Autor: Julian Szkudlarek"
+        android:background="@color/Brown"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
         />
     <Button
         android:id="@+id/throwDraw"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RZUĆ KOŚCIAMI"
+        android:backgroundTint="@color/Chocolate"
         android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         >
         <TextView
             android:id="@+id/cube1"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="?"
+            android:layout_margin="9dp"
             android:gravity="center"
             android:textSize="24sp"
             />
         <TextView
             android:id="@+id/cube2"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="?"
+            android:layout_margin="9dp"
             android:gravity="center"
             android:textSize="24sp"
             />
         <TextView
             android:id="@+id/cube3"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="?"
+            android:layout_margin="9dp"
             android:gravity="center"
             android:textSize="24sp"
             />
         <TextView
             android:id="@+id/cube4"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="?"
+            android:layout_margin="9dp"
             android:gravity="center"
             android:textSize="24sp"
             />
         <TextView
             android:id="@+id/cube5"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:text="?"
+            android:layout_margin="9dp"
             android:gravity="center"
             android:textSize="24sp"
             />
@@ -75,13 +94,19 @@
         android:layout_height="wrap_content"
         android:text="Wynik tego losowania: 0"
         android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         />
     <TextView
         android:id="@+id/gameResult"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wynik gry: 0"
         android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         />
     <TextView
         android:id="@+id/throwAmount"
@@ -89,12 +114,19 @@
         android:layout_height="wrap_content"
         android:text="Liczba rzutów: 0"
         android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         />
     <Button
         android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RESET"
+        android:layout_gravity="center"
         android:textSize="24sp"
+        android:backgroundTint="@color/Chocolate"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
         />
 </LinearLayout>
